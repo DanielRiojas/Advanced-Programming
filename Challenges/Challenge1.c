@@ -64,7 +64,7 @@ int main(){
     }
     originalMsg[n - 1] = '\0';
 
-    puts(originalMsg); //Print the X'
+    //puts(originalMsg); //Print the X'
 
     //Convert X' to X'
     int substringSize = 0;
@@ -86,7 +86,7 @@ int main(){
     }
 
     originalMsg[n - 1] = '\0';
-    puts(originalMsg);
+    //puts(originalMsg);
     printf("%s => %s\n", encryptedMsg, originalMsg);
 
     return 0;
